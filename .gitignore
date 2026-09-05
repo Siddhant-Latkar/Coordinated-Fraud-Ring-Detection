@@ -1,0 +1,26 @@
+# Runtime database -- this is regenerated locally by the app; committing
+# it would leak whatever test/demo transactions you happened to run.
+data/risk_manager.db
+data/risk_manager.db-journal
+data/risk_manager.db-wal
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+myenv/
+env/
+
+# Secrets / local env files
+.env
+*.env
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
